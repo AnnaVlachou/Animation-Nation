@@ -1,0 +1,56 @@
+body {
+  background-color: #000026;
+}
+
+
+.dot1 {
+  height: 100px;
+  width: 10%;
+  position:fixed;
+  top: 40%;
+  left: 40%;
+  background: #7FFFD4 ;
+  border-radius: 50%; 
+  position: center;
+  animation: dotdot .8s ease 1s infinite alternate-reverse;
+  
+  
+}
+
+
+.dot2 {
+  height: 100px;
+  width: 10%;
+  position:fixed;
+  top: 43%;
+  left: 40%;
+  background: #5F9EA0;
+  border-radius: 60%; 
+  position: center;  
+  animation: dotdot .8s ease 1s infinite alternate;
+  
+}
+
+.dot3 {
+  height: 100px;
+  width: 10%;
+  position:fixed;
+  top: 45%;
+  left: 40%;  
+  background: #191970;
+  border-radius: 80%; 
+  position: center;  
+  animation: dotdot .9s ease 1s infinite alternate-reverse;
+  
+  
+}
+
+@keyframes dotdot {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+} 

@@ -1460,14 +1460,17 @@ let cards = [
 	author: "Alara Joel",
 	githubLink: "https://github.com/stealthman22"
 },
-	{
-	      artName: "Dots",
-	      pageLink: "./Art/dots/index.html",
-	      imageLink: "./Art/dots/dots.gif",
-	      author: "Anna",
-	      githubLink: "https://github.com/AnnaVlachou"
-	    }
-	
+{
+    artName: "Dots",
+	pageLink: "./Art/dots/index.html",
+	imageLink: "./Art/dots/dots.gif",
+	author: "Anna",
+	githubLink: "https://github.com/AnnaVlachou"
+}
+
+	      
+
+		  
 ];
 
 // +--------------------------------------------------------------------------------+
